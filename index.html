@@ -9,6 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- ------------------------------- Link Google Fonts ------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- ------------------------------- Link JQUERY ------------------------------- -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -27,21 +34,21 @@
 <body class="container-fluid p-0" data-spy="scroll" data-target="#navbarNav">
     <nav class="navbar navbar-expand-lg fixed-top py-1">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center column-gap-2 text-white" href="#"><img class="svg-icon"
+            <a class="navbar-brand d-flex align-items-center column-gap-2 fw-normal" href="#"><img class="svg-icon"
                     src="viajes.svg" alt="Avion sobre planeta tierra">Viajes Chile</a>
             <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#scrollspyInicio">Inicio</a>
+                        <a class="nav-link" href="#scrollspyInicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#scrollspyQuienesSomos">Quienes Somos</a>
+                        <a class="nav-link" href="#scrollspyQuienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#scrollspyDestacados">Destacados</a>
+                        <a class="nav-link" href="#scrollspyDestacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#scrollspyContacto">Contacto</a>
+                        <a class="nav-link" href="#scrollspyContacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -84,9 +91,9 @@
 
         <div class="container">
             <!-- ------------------------------- QUIENES SOMOS SECTION ------------------------------- -->
-            <section id="scrollspyQuienesSomos" class="row py-5 row-gap-4">
+            <section id="scrollspyQuienesSomos" class="row py-5 row-gap-4 d-none d-sm-flex">
                 <div class="col-12 text-center">
-                    <h2 class="fs-3">¿QUIÉNES SOMOS?</h2>
+                    <h2>¿QUIÉNES SOMOS?</h2>
                 </div>
                 <div class="d-flex justify-content-center">
                     <hr class="w-90">
@@ -101,7 +108,7 @@
                         tempore cupiditate ut nesciunt unde soluta. Dolor rerum voluptas ex? Nisi!</p>
                 </div>
                 <div class="col-4">
-                    <p class="pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab est exercitationem
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab est exercitationem
                         beatae vel
                         dolorem dolores tempore ullam? Consectetur, laborum non delectus numquam, quisquam nesciunt rem
                         ut minima tenetur quia a Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, veniam
@@ -126,48 +133,64 @@
                 </div>
                 <hr>
                 <div class="row m-0">
-                    <div class="card col-3 p-0">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+                    <div class="col-lg-3 col-sm-6 col-12 p-1">
+                        <div class="card bg-info h-100">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="fs-4">Ipsa ex incidunt.</h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's content.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-3 p-0">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3>
-                                Lorem ipsum dolor sit amet.
-                            </h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+
+                    <div class="col-lg-3 col-sm-6 col-12 p-1">
+                        <div class="card bg-info h-100">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="fs-4">
+                                    Lorem ipsum dolor.
+                                </h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's content.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-3 p-0">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3>Consectetur nisi culpa iste nesciunt.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+
+                    <div class="col-lg-3 col-sm-6 col-12 p-1">
+                        <div class="card bg-info h-100">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="fs-4">Consectetur nisi.</h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's content.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-3 p-0">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h3>Consequatur officiis blanditiis.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
+
+                    <div class="col-lg-3 col-sm-6 col-12 p-1">
+                        <div class="card bg-info h-100">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="fs-4">Consequatur officiis.</h3>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the
+                                    card's content.</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </section>
             <!-- ------------------------------- CONTACTO SECTION ------------------------------- -->
@@ -190,11 +213,11 @@
             </section>
         </div>
     </main>
-    <footer class="container">
+    <footer class="bg-info">
         <div class="row">
             <div class="offset-1 col-10 d-flex justify-content-between">
-                <h1>Viajes Chile</h1>
-                <div>
+                <h2 class="fw-normal fs-4">VIAJES CHILE</h2>
+                <div class="fs-4">
                     <i class="fa-brands fa-github"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     <i class="fa-brands fa-square-twitter"></i>
