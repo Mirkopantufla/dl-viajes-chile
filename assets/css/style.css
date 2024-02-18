@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+/* -------------------------------------- HEADER SECTION -------------------------------------- */
+.header__section img {
+    max-height: 100vh;
+}
+
+/* -------------------------------------- HEADER SECTION -------------------------------------- */
+.svg-icon {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+/* -------------------------------------- QUIENES SOMOS SECTION -------------------------------------- */
+.quienes-somos__section {}
