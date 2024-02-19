@@ -45,11 +45,41 @@ footer {
 }
 
 /* -------------------------------------- BOOTSTRAP OVERRIDE SECTION -------------------------------------- */
-.card img {
-    max-height: 45%;
+.imageContainer {
+    height: 144px;
+    overflow: hidden;
 }
 
 /* -------------------------------------- CUSTOM CLASSES SECTION -------------------------------------- */
 .w-90 {
     width: 90%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+
+@media (min-width: 576px) {
+
+    .imageContainer {
+        max-height: 160px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .imageContainer {
+        max-height: 144px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .imageContainer {
+        max-height: 174px;
+    }
+
 }
