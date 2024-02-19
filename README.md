@@ -1,7 +1,9 @@
 # dl-viajes-chile
-Link para ver la pagina en linea: https://mirkopantufla.github.io/dl-viajes-chile/
+Link para ver la pagina en linea: [Viajes-Chile](https://mirkopantufla.github.io/dl-viajes-chile/)
+```
 Prueba - Viajes de Chile
 Curso Fullstack Python Trainee v2.0
+```
 
 # Recursos utilizados
 ```
